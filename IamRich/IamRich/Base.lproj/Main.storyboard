@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IamRich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I am rich " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYd-DB-pVF">
+                                <rect key="frame" x="101" y="81" width="190" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="mGM-ZB-KsM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <color key="textColor" red="0.96862745098039216" green="0.97254901960784312" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="0zY-Bn-C0w">
+                                <rect key="frame" x="28" y="150" width="336" height="264"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.20784313725490194" green="0.34509803921568627" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0zY-Bn-C0w" secondAttribute="bottom" constant="370" id="6sC-0r-rMc"/>
+                            <constraint firstItem="BYd-DB-pVF" firstAttribute="centerX" secondItem="0zY-Bn-C0w" secondAttribute="centerX" id="H7Q-If-N76"/>
+                            <constraint firstItem="0zY-Bn-C0w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="PEr-B5-NK0"/>
+                            <constraint firstItem="0zY-Bn-C0w" firstAttribute="top" secondItem="BYd-DB-pVF" secondAttribute="bottom" constant="8" id="Wfc-wT-aIG"/>
+                            <constraint firstItem="BYd-DB-pVF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rfP-vJ-yRH"/>
+                            <constraint firstItem="BYd-DB-pVF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="rma-yv-ndE"/>
+                            <constraint firstItem="BYd-DB-pVF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-37" id="uLl-d1-MMB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.1679389312977" y="130.98591549295776"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="343.33334350585938" height="251.33332824707031"/>
+    </resources>
+</document>
